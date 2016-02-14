@@ -5,6 +5,7 @@ PATH
       faraday
       faraday_middleware
       rack
+      thor
 
 GEM
   remote: https://rubygems.org/

@@ -26,6 +26,7 @@ application.
   spec.add_dependency "faraday"
   spec.add_dependency "faraday_middleware"
   spec.add_dependency "rack"
+  spec.add_dependency "thor"
 
   spec.add_development_dependency "bundler", ">= 1.6.2"
   spec.add_development_dependency "rake", "~> 10.0"
