@@ -23,24 +23,19 @@ Add the gem into your project using `bundler`
 ### Creating a new robot
 
 In order to crate a new robot, you'll need to figure out
-the correct serial (easy) and the associated secret (less easy).
+the correct serial and the associated secret.
 
-The serial number of your robot is likly to be shown somewhere
-in your Android/iOS application.
+Once the gem is installed you should have a binary
+named `botvac` which allow you to do so:
 
-The current process to figure out the robots secret is more
-cumbersome, as it requires you to sniff the traffic between
-you smartphone and the neato servers. Looks out for a
-request to
+    $ botvac robots
 
-    https://beehive.neatocloud.com/dashboard
+    Email: foo@example.com
+    Password:
 
-which will hold all necessary data :)
+    Robot (BotVacConnected) => Serial: OPSXXXX-XXXXX Secret: XXXXXXXX
 
-I'll add a more convinent way to obtain this in
-future versions.
-
-Once you have the serial and secret create a new robot object
+Save these somewhere, so you can use them later to create a new robot object!
 
     mrrobot = Botvac::Robot.new(<serial>, <secret>)
 
