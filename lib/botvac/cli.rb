@@ -1,5 +1,6 @@
 require 'thor'
 require 'botvac'
+require 'securerandom'
 
 module Botvac
   class Cli < Thor
