@@ -76,6 +76,11 @@ mandatory to set!
 Will make the action start. To trigger other activities, just
 change the requested URL to one of the above method names.
 
+## Other languages
+
+Ruby is not you first choice of language? No worries, there's also 
+an implementation for PHP done by Tom Rosenback (https://github.com/tomrosenback/botvac)
+
 ## Contributing
 
 1. Fork it ( http://github.com/<my-github-username>/botvac/fork )
