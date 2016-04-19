@@ -6,7 +6,7 @@ used to control you Neato Connected vaccum robot.
 
 ## Disclaimer
 
-As this is an official client to the API which required
+As this is an unofficial client to the API which required
 to reverse the HTTP Authentication mechanism used by
 Neato things are topic to be unstable and maybe unreliable.
 
