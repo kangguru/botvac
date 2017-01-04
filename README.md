@@ -79,7 +79,7 @@ change the requested URL to one of the above method names.
 ## Other languages
 
 Ruby is not you first choice of language? No worries, there are also 
-implementations in this languages: 
+implementations in these languages: 
 
 - PHP https://github.com/tomrosenback/botvac (Tom Rosenback)
 - Python https://github.com/stianaske/pybotvac (Stian Askeland)
